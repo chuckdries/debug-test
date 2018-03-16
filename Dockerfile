@@ -6,9 +6,9 @@ RUN yarn global add pm2
 EXPOSE 8000
 EXPOSE 8001
 
-WORKDIR /debug-test
-
 COPY . /debug-test/
+
+WORKDIR /debug-test
 
 RUN yarn
 
