@@ -10,8 +10,8 @@
             "name": "Docker: Attach to Node",
             "port": 8001,
             "address": "localhost",
-            "localRoot": "${workspaceFolder}",
-            "remoteRoot": "/debug-test",
+            "localRoot": "${workspaceFolder}/src",
+            "remoteRoot": "/debug-test/src",
             "protocol": "inspector"
         }
     ]

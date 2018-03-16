@@ -1,4 +1,4 @@
 apps:
   - script: '.'
-    node_args: '--inspect=0.0.0.0:8001'
+    node_args : '--inspect=0.0.0.0:8001'
 
